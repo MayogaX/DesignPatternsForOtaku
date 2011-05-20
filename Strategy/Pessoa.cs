@@ -10,6 +10,6 @@ namespace Strategy
         public String nome { get; set; }
         public Int32 idade { get; set; }
         public Profissao profissao { get; set; }
-        public void usaHabilidadeEspecial();
+        public abstract void usaHabilidadeEspecial();
     }
 }

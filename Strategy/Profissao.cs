@@ -7,16 +7,125 @@ namespace Strategy
 {
     public interface Profissao
     {
-        public String nome { get; set; }
-        public Int32 forca { get; set; }
-        public Int32 velocidade { get; set; }
-        public Int32 magia { get; set; }
+         String nome { get; set; }
+         Int32 forca { get; set; }
+         Int32 velocidade { get; set; }
+         Int32 magia { get; set; }
 
-        public void usaHabilidadeEspecial();
+         void usaHabilidadeEspecial();
     }
 
-    public class Mago
+    public class Mago : Profissao
     {
 
+        public string nome
+        {
+            get
+            {
+                return this.nome;
+            }
+            set
+            {
+                this.nome = value;
+            }
+        }
+
+        public int forca
+        {
+            get
+            {
+                return this.forca;
+            }
+            set
+            {
+                this.forca = value;
+            }
+        }
+
+        public int velocidade
+        {
+            get
+            {
+                return this.velocidade;
+            }
+            set
+            {
+                this.velocidade = value;
+            }
+        }
+
+        public int magia
+        {
+            get
+            {
+                return this.magia;
+            }
+            set
+            {
+                this.magia = value;
+            }
+        }
+
+        public void usaHabilidadeEspecial()
+        {
+            throw new NotImplementedException();
+        }
     }
+
+    public class Cavaleiro : Profissao
+    {
+        public string nome
+        {
+            get
+            {
+                return this.nome;
+            }
+            set
+            {
+                this.nome = value;
+            }
+        }
+
+        public int forca
+        {
+            get
+            {
+                return this.forca;
+            }
+            set
+            {
+                this.forca = value;
+            }
+        }
+
+        public int velocidade
+        {
+            get
+            {
+                return this.velocidade;
+            }
+            set
+            {
+                this.velocidade = value;
+            }
+        }
+
+        public int magia
+        {
+            get
+            {
+                return this.magia;
+            }
+            set
+            {
+                this.magia = value;
+            }
+        }
+
+        public void usaHabilidadeEspecial()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
 }
