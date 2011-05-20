@@ -6,3 +6,6 @@ C:\Users\Mayogax\Projetos\DotNet\DesingParttensForOtaku\Strategy\obj\Debug\Strat
 C:\Users\Mayogax\Projetos\DotNet\DesingParttensForOtaku\Strategy\obj\Debug\Strategy.pdb
 D:\Priscila\Projetos\DesingParttensForOtaku\Strategy\obj\Debug\Strategy.exe
 D:\Priscila\Projetos\DesingParttensForOtaku\Strategy\obj\Debug\Strategy.pdb
+D:\Priscila\Projetos\DesingParttensForOtaku\Strategy\obj\Debug\ResolveAssemblyReference.cache
+D:\Priscila\Projetos\DesingParttensForOtaku\Strategy\bin\Debug\Strategy.exe
+D:\Priscila\Projetos\DesingParttensForOtaku\Strategy\bin\Debug\Strategy.pdb

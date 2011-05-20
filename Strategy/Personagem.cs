@@ -5,11 +5,10 @@ using System.Text;
 
 namespace Strategy
 {
-    public abstract class Pessoa
+    public class Personagem
     {
         public String nome { get; set; }
         public Int32 idade { get; set; }
         public Cavaleiro cavaleiro { get; set; }
-        public abstract void usaHabilidadeEspecial();
     }
 }

@@ -9,7 +9,11 @@ namespace Strategy
     {
         static void Main(string[] args)
         {
+            Personagem principal = new Personagem();
+            principal.cavaleiro = new Bronze();
 
+            principal.nome = "Seiya";
+            principal.cavaleiro.usaHabilidadeEspecial();
         }
     }
 }
