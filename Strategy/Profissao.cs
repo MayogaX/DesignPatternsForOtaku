@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Strategy
 {
-    public interface Profissao
+    public interface Cavaleiro
     {
          String nome { get; set; }
          Int32 forca { get; set; }
@@ -15,7 +15,7 @@ namespace Strategy
          void usaHabilidadeEspecial();
     }
 
-    public class Mago : Profissao
+    public class Mago : Cavaleiro
     {
 
         public string nome
@@ -72,7 +72,7 @@ namespace Strategy
         }
     }
 
-    public class Cavaleiro : Profissao
+    public class Cavaleiro : Cavaleiro
     {
         public string nome
         {
