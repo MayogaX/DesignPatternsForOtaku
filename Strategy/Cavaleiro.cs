@@ -16,77 +16,46 @@ namespace Strategy
 
     public class Bronze : Cavaleiro
     {
-        public string nome
-        {
-            get
-            {
-                return this.nome;
-            }
-            set
-            {
-                this.nome = value;
-            }
-        }
-        Int32 comos;
+        public string nome { get; set; }
+        Int32 comos { get; set; }
 
         public void usaHabilidadeEspecial()
         {
-            Console.WriteLine("Poder especial que não mata inguém!");
+            Console.WriteLine("Poder especial na velocidade do som!");
         }
         public void aumentaCosmo()
         {
+
         }
     }
 
     public class Prata : Cavaleiro
     {
-        Int32 cosmo;
-
-        public string nome
-        {
-            get
-            {
-                return this.nome;
-            }
-            set
-            {
-                this.nome = value;
-            }
-        }
+        public string nome { get; set; }
+        Int32 comos { get; set; }
 
         public void usaHabilidadeEspecial()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Poder especial que matador!!");
         }
-
         public void aumentaCosmo()
         {
+
         }
     }
 
     public class Ouro : Cavaleiro
     {
-        Int32 cosmo;
-
-        public string nome
-        {
-            get
-            {
-                return this.nome;
-            }
-            set
-            {
-                this.nome = value;
-            }
-        }
+        public string nome { get; set; }
+        Int32 comos { get; set; }
 
         public void usaHabilidadeEspecial()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Poder especial na velocidade da luz!!!");
         }
-
         public void aumentaCosmo()
         {
+
         }
     }
 }

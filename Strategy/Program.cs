@@ -14,6 +14,13 @@ namespace Strategy
 
             principal.nome = "Seiya";
             principal.cavaleiro.usaHabilidadeEspecial();
+
+            Console.ReadKey();
+
+            principal.cavaleiro = new Ouro();
+            principal.cavaleiro.usaHabilidadeEspecial();
+
+            Console.ReadKey();
         }
     }
 }
