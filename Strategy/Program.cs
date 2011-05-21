@@ -14,11 +14,15 @@ namespace Strategy
 
             principal.nome = "Seiya";
             principal.cavaleiro.usaHabilidadeEspecial();
+            principal.cavaleiro.aumentaCosmo();
+            principal.cavaleiro.aumentaCosmo();
 
             Console.ReadKey();
 
             principal.cavaleiro = new Ouro();
             principal.cavaleiro.usaHabilidadeEspecial();
+            principal.cavaleiro.aumentaCosmo();
+            principal.cavaleiro.aumentaCosmo();
 
             Console.ReadKey();
         }

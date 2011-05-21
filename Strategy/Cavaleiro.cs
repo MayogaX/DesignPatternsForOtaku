@@ -8,7 +8,7 @@ namespace Strategy
     public interface Cavaleiro
     {
          String nome { get; set; }
-
+        
          void aumentaCosmo();
          void usaHabilidadeEspecial();
 
@@ -25,7 +25,8 @@ namespace Strategy
         }
         public void aumentaCosmo()
         {
-
+            this.comos++;
+            Console.WriteLine("Aumentando meu cosmo para " + this.comos.ToString());
         }
     }
 
@@ -40,7 +41,8 @@ namespace Strategy
         }
         public void aumentaCosmo()
         {
-
+            this.comos = this.comos + 50;
+            Console.WriteLine("Aumentando meu cosmo para " + this.comos.ToString());
         }
     }
 
@@ -55,7 +57,8 @@ namespace Strategy
         }
         public void aumentaCosmo()
         {
-
+            this.comos = this.comos + 100;
+            Console.WriteLine("Aumentando meu cosmo para " + this.comos.ToString());
         }
     }
 }
